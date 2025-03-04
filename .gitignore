@@ -1,0 +1,33 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración del IDE y entorno de desarrollo
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Archivos de logs y bases de datos locales
+logs/
+*.log
+instance/
+db.sqlite3
+
+# Dependencias y paquetes compilados
+dist/
+build/
+*.egg-info/
+*.spec
+
+# Archivos de Docker y otros entornos
+docker-compose.override.yml
+
+# Configuración de MySQL
+*.sql
